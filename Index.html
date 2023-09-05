@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas CaC</title>
+    <link rel="shortcut icon" href="im  g/chef-311369_1280.ico" type="image/x-icon">
+    <!--Favaicon es para agregar un logo en la pestaña. Siempre va por debajo del Tittle-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1 class="oscuro subrayado">Recetas CaC</h1>
+    <!--Style se utiliza con CSS para dar color y formato al texto-->
+    <h2>Las mejores recetas del País</h2>
+    <ul>
+        <li><a id= "enlaceDeContacto" href="pages/empanada.html">Recetas de Empanada</a></li>
+        <li><a id= "enlaceDeContacto" href="pages/pizza.html">Recetas de Pizza</a></li>
+    </ul>
+    <p><a href="https://www.paulinacocina.net/recetas" target="_blank">Mas recetas...</a></p>
+<!--_Blank hace que la dirección web agregada se habra en otra pestaña-->
+    <h3>Formulario de contacto</h3>
+    <form action=""></form>
+    <label for="fname">Nombre:</label><br>
+    <!--Name es para el backen, el Id es para el Fronter. Para asociar el label con el impunt lo asocio poniendo el mismo nombre al for y al id. El nombre puede ser el que quiera-->
+    <input type="text" id="fname" name="fname" autofocus><br>
+    <!--"autofocus" es para poner el cursos en un elemento predeterminad-->
+    <label for="lname">Apellido:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="birthday">¿Tu Cumpleaños?</label>
+    <input type="date" id="birthday" name="input-date"><br><br>
+    <!--El nombre del for "en inglés" en la etiqueta, debe coincidir con el id del inmput-->
+    <label for="mensaje">Tu mensaje</label><br>
+    <textarea name="menssage" id="mensaje" cols="30" rows="5">Un mensaje de Prueba</textarea><br>
+    <input type="submit">
+    <input type="reset" value="Borrar"><br><br>
+<!--Drag & Drop, página web para subir a la web tu página-->
+    <footer>
+        <p class="oscuro"> 2023 - Copyright</p>
+    </footer>
+    </body>
+</html>

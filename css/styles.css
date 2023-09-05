@@ -1,0 +1,51 @@
+h1, h2, a {
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.048);
+}
+ 
+ul{
+    color: brown;
+}
+p {font-weight:bold;}
+a {
+    color: rgba(0, 0, 255, 0.562);
+}
+/*Selector por ID, sirve para dar color a palabras de una lista*/
+ #enlaceDeContacto {
+    color: rgb(77, 40, 14);
+ }
+ /*Class lo utilizo para agregar color a varios elementos y siempre va mencionado con punto*/
+ .oscuro {
+    color: #f3f3f2;
+ }
+ /* otro es el subrayado que también va con punto*/
+ .subrayado {
+    text-decoration: underline 2px rgba(34, 252, 88, 0.233);
+ }
+ /* * es un selectro selecciona todos los elementos de una página */
+
+ body {
+    background: rgb(187, 170, 170);
+    background-image: url(../img/empanadas.jpg);
+    /**siempre que voy a agregar una imagen debo escribir url()
+    Puedo controlar que no se repita utilizando background-repeat
+    background-cover cubre todo el espacio de la pantalla en caso de que la imagen sea pequeña**/
+    background-attachment: fixed; /**Hace que la imagen de fondo quede quieta.
+    Esto debe seguir una escala: color, imagen, repetir, attachment, position**/
+    font-family: Arial, Helvetica, sans-serif; /**para cambiar la fuente se utiliza font-family**/
+    
+ }
+ html{
+    font-size: 16px; /**tamaño de fuente**/
+ }
+ h1{
+    font-size: 2rem;
+ }
+ h2{
+    font-size: 1.5rem
+ }
+ title {
+    background: #00afb9;
+ }
+  
